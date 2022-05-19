@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import dev.designpattern.builder.Job;
+import dev.designpattern.proxy.WeatherClient;
 
 public class TestPatterns {
 	@Test
@@ -17,5 +18,12 @@ public class TestPatterns {
 				         .build();
 		
 		Assert.assertEquals(1, job.getId());
+	}
+	
+	@Test
+	public void testProxyPattern() {
+		WeatherClient client = new WeatherClient();
+		Assert.assertNotNull(client.getWeatherDetailsForToday());
+		Assert.assertNotNull(client.getWeatherDetailsForWeek());
 	}
 }
