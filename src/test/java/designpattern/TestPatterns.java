@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import dev.designpattern.builder.Job;
+import dev.designpattern.chainofresponsibility.ChainOfResponsibilityATMClient;
 import dev.designpattern.proxy.WeatherClient;
 
 public class TestPatterns {
@@ -25,5 +26,12 @@ public class TestPatterns {
 		WeatherClient client = new WeatherClient();
 		Assert.assertNotNull(client.getWeatherDetailsForToday());
 		Assert.assertNotNull(client.getWeatherDetailsForWeek());
+	}
+	
+	@Test
+	public void testChainOfResponsibilityPattern() {
+		ChainOfResponsibilityATMClient client = new ChainOfResponsibilityATMClient();
+		client.build().dispenseCash(20000);
+		client.build().dispenseCash(4500);
 	}
 }
