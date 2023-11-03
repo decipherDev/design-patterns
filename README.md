@@ -7,8 +7,8 @@
 
 |Creational       | Structural          | Behavioral              | 
 |-----------------|---------------------|-------------------------|
-| Singleton       | Proxy               | Chain of responsibility |
-| Builder         |                     |                         |
+| [Singleton](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton)       | [Proxy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy)               | [Chain of responsibility](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility) |
+| [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |                     | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
 
 > Singleton Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton
@@ -19,5 +19,8 @@ https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/des
 > Proxy Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy
 
-> Chain of Responsibilty Pattern <br>
+> Chain of Responsibility Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility
+
+> Command Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command
