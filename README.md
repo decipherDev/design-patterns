@@ -8,7 +8,8 @@
 |Creational       | Structural          | Behavioral              | 
 |-----------------|---------------------|-------------------------|
 | [Singleton](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton)       | [Proxy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy)               | [Chain of responsibility](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility) |
-| [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |                     | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
+| [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |   [Adapter](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter)                  | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
+| |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | |
 
 > Singleton Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton
@@ -24,3 +25,9 @@ https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/des
 
 > Command Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command
+
+> Decorator Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator
+
+> Adapter Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter
