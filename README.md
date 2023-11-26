@@ -10,6 +10,7 @@
 | [Singleton](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton)       | [Proxy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy)               | [Chain of responsibility](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility) |
 | [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |   [Adapter](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter)                  | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
 | |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | |
+| |[Flyweight](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | |
 
 > Singleton Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton
@@ -31,3 +32,6 @@ https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/des
 
 > Adapter Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter
+
+> Flyweight Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight
