@@ -11,6 +11,7 @@
 | [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |   [Adapter](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter)                  | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
 | |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | |
 | |[Flyweight](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | |
+| |[Bridge](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge) | |
 
 > Singleton Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton
@@ -35,3 +36,6 @@ https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/des
 
 > Flyweight Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight
+
+> Bridge Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge
