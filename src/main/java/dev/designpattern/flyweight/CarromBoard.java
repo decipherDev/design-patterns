@@ -10,10 +10,10 @@ public class CarromBoard {
 		String[] colors = new String[] {"white", "black"};
 		for (String color : colors) {
 			for (int i = 0; i < 9; i++) {
-				carromFlicks.add(new CarromDiscs(0, 0, FlyWeightFactory.getFlicksTypeInstance(color, 10)));
+				carromFlicks.add(new CarromDiscs(0, 0, FlyWeightFactory.getCarromDiscTypeInstance(color, 10)));
 			}
 		}
-		carromFlicks.add(new CarromDiscs(0, 0, FlyWeightFactory.getFlicksTypeInstance("yellow", 10)));
+		carromFlicks.add(new CarromDiscs(0, 0, FlyWeightFactory.getCarromDiscTypeInstance("yellow", 10)));
 	}
 	
 	public void play() {

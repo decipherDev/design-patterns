@@ -6,7 +6,7 @@ import java.util.Map;
 public class FlyWeightFactory {
 	private static Map<String, CarromDiscType> map = new HashMap<>();
 	
-	public static CarromDiscType getFlicksTypeInstance(String color, int cost) {
+	public static CarromDiscType getCarromDiscTypeInstance(String color, int cost) {
 		if (map.containsKey(color)) {
 			return map.get(color);
 		} else {
