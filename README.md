@@ -4,14 +4,14 @@
 |-----------------------|-----------------------|-----------------------------|
 | :x: Factory           | ✔️ Adapter            | ✔️ Chain of responsibility |
 | :x: Abstract Factory  | ✔️ Bridge             | ✔️  Command                |
-| ✔️ Builder           | ✔️ Composite          | :x: Iterator                |
-| :x: Prototype         | ✔️ Decorator          | :x: Mediator               |
-| :x: Singleton         | :x: Facade            | ✔️ Memento                 |
-| ✔️ Flyweight         |                        | :x: Observer               |
-| :x: Proxy            |                        | :x: State                   |
-|                      |                        | :x: Strategy                |
-|                      |                        | :x: Template                |
-|                      |                        | :x: Visitor                 |
+| ✔️ Builder           | ✔️ Composite           | :x: Iterator               |
+| :x: Prototype         | ✔️ Decorator          | :x: Mediator                |
+| :x: Singleton         | :x: Facade             | ✔️ Memento                 |
+|                       | ✔️ Flyweight          | :x: Observer                | 
+|                       | :x: Proxy              | :x: State                  |
+|                       |                        | :x: Strategy               |
+|                       |                        | :x: Template               |
+|                       |                        | :x: Visitor                |
 
 <h2> Types of Design Patterns </h2>
 
