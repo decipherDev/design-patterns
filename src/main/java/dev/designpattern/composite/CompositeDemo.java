@@ -1,6 +1,6 @@
 package dev.designpattern.composite;
 
-public class BridgeDemo {
+public class CompositeDemo {
 	public static void main(String[] args) {
 		FileSystem file = new File("file");
 		FileSystem fileA = new File("fileA");

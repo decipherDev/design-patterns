@@ -1,14 +1,8 @@
 package dev.designpattern.decorator;
 
-public class FarmHousePizza extends PizzaDecorator {
-
-	public FarmHousePizza(BasePizza basePizza) {
-		super(basePizza);
-	}
-
+public class FarmHousePizza extends BasePizza {
 	@Override
 	public int cost() {
-		return super.cost() + 300;
+		return 300;
 	}
-
 }

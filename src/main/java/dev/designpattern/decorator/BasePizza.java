@@ -1,8 +1,5 @@
 package dev.designpattern.decorator;
 
-public class BasePizza extends Pizza {
-	@Override
-	public int cost() {
-		return 200;
-	}
+public abstract class BasePizza {
+	public abstract int cost();
 }

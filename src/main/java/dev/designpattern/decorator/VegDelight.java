@@ -1,13 +1,12 @@
 package dev.designpattern.decorator;
 
-public class VegDelight extends PizzaDecorator {
-	public VegDelight(BasePizza basePizza) {
-		super(basePizza);
+public class VegDelight extends PizzaToppingsDecorator {
+	public VegDelight() {
 	}
 
 	@Override
 	public int cost() {
-		return super.cost() + 400;
+		return 400;
 	}
 
 }
