@@ -1,4 +1,4 @@
-📓 To-Do List
+## 📓 To-Do List
 
 | Creation Pattern      |  Structural Pattern   | Behavorial Pattern          |
 |-----------------------|-----------------------|-----------------------------|
@@ -13,7 +13,7 @@
 |                       |                        | :x: Template               |
 |                       |                        | :x: Visitor                |
 
-<h2> Types of Design Patterns </h2>
+## Types of Design Patterns
 
 * Creational
 * Structural
