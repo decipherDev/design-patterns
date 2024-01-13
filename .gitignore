@@ -10,5 +10,6 @@ buildNumber.properties
 .classpath
 .project
 .settings/
+.sts4-cache/
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
