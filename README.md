@@ -5,7 +5,7 @@
 | :x: Factory           | ✔️ Adapter            | ✔️ Chain of responsibility |
 | :x: Abstract Factory  | ✔️ Bridge             | ✔️  Command                |
 | ✔️ Builder           | ✔️ Composite           | :x: Iterator               |
-| :x: Prototype         | ✔️ Decorator          | :x: Mediator                |
+| ✔️ Prototype         | ✔️ Decorator          | :x: Mediator                |
 | ✔️ Singleton         | ❌ Facade             | ✔️ Memento                 |
 |                       | ✔️ Flyweight          | :x: Observer                | 
 |                       | :x: Proxy              | :x: State                  |
@@ -24,7 +24,7 @@
 |-----------------|---------------------|-------------------------|
 | [Singleton](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton)       | [Proxy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy)               | [Chain of responsibility](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility) |
 | [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |   [Adapter](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter)                  | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
-| |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | [Memento](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/memento) |
+| [Prototype](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/prototype) |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | [Memento](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/memento) |
 | |[Flyweight](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | |
 | |[Bridge](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge) | |
 
@@ -33,6 +33,9 @@ https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/des
 
 > Builder Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder
+
+> Prototype Pattern <br>
+https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/prototype
 
 > Proxy Pattern <br>
 https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy
