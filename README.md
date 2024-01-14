@@ -8,7 +8,7 @@
 | ✔️ Prototype         | ✔️ Decorator          | :x: Mediator                |
 | ✔️ Singleton         | ❌ Facade             | ✔️ Memento                 |
 |                       | ✔️ Flyweight          | :x: Observer                | 
-|                       | :x: Proxy              | :x: State                  |
+|                       | ✔️ Proxy              | :x: State                  |
 |                       |                        | :x: Strategy               |
 |                       |                        | :x: Template               |
 |                       |                        | :x: Visitor                |
