@@ -2,7 +2,7 @@ package dev.designpattern.proxy;
 
 import java.time.LocalDateTime;
 
-interface WeatherApi {
+public interface WeatherApi {
 	/** Returns the temperature for the day **/
 	String getWeatherDetailsForDay(LocalDateTime localDateTime, String isoCode);
 	
