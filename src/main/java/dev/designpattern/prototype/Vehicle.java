@@ -16,12 +16,4 @@ public abstract class Vehicle implements Cloneable {
 
     @Override
     protected abstract Vehicle clone();
-
-    protected void name() {
-        
-    }
-
-    public void nameOne() {
-        
-    }
 }

@@ -7,7 +7,8 @@ import org.junit.Test;
 
 import dev.designpattern.builder.Job;
 import dev.designpattern.chainofresponsibility.ChainOfResponsibilityATMClient;
-import dev.designpattern.proxy.WeatherClient;
+import dev.designpattern.proxy.WeatherApi;
+import dev.designpattern.proxy.WeatherApiProxy;
 
 public class TestPatterns {
 	@Test
@@ -23,15 +24,14 @@ public class TestPatterns {
 	
 	@Test
 	public void testProxyPattern() {
-		WeatherClient client = new WeatherClient();
-		Assert.assertNotNull(client.getWeatherDetailsForToday());
-		Assert.assertNotNull(client.getWeatherDetailsForWeek());
+		WeatherApi weatherApi = new WeatherApiProxy();
+		Assert.assertNotNull(weatherApi.getWeatherDetailsForDay(LocalDateTime.now(), "IN"));
+		weatherApi.getWeatherDetailsForWeek(LocalDateTime.now().getDayOfYear()/52, "AB");
 	}
 	
 	@Test
 	public void testChainOfResponsibilityPattern() {
-		ChainOfResponsibilityATMClient client = new ChainOfResponsibilityATMClient();
-		client.build().dispenseCash(20000);
-		client.build().dispenseCash(4500);
+		ChainOfResponsibilityATMClient.build().dispenseCash(20000);
+		ChainOfResponsibilityATMClient.build().dispenseCash(4500);
 	}
 }

@@ -22,5 +22,4 @@ public class VehicleRegistry {
         THREE_WHEELER,
         FOUR_WHEELER
    }
-    
 }
