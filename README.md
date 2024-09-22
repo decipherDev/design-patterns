@@ -7,7 +7,7 @@
 | ✔️ Builder             | ✔️ Composite           | :x: Iterator              |
 | ✔️ Prototype           | ✔️ Decorator           | :x: Mediator              |
 | ✔️ Singleton           | ✔️ Facade              | ✔️ Memento                 |
-|                       | ✔️ Flyweight           | :x: Observer              | 
+|                       | ✔️ Flyweight           | ✔️ Observer                | 
 |                       | ✔️ Proxy               | :x: State                 |
 |                       |                       | :x: Strategy              |
 |                       |                       | :x: Template              |
@@ -25,6 +25,6 @@
 | [Singleton](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/singleton)       | [Proxy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/proxy)               | [Chain of responsibility](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/chainofresponsibility) |
 | [Builder](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/builder)         |   [Adapter](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/adapter)                  | [Command](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/command)                 |
 | [Prototype](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/prototype) |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | [Memento](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/memento) |
-|[Factory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/factory) |[Flyweight](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | |
+|[Factory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/factory) |[Flyweight](https://github.com/decipherDev/$design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | [Observer](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/observer) |
 | [Abstract Factrory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/abstractfactory)|[Bridge](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge) | |
 | |[Facade](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/facade) | |
