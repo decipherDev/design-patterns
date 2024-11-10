@@ -15,9 +15,9 @@ public class ThreeWheeler extends Vehicle {
         this.doors = threeWheeler.doors;
         this.doors = threeWheeler.loadingSpace;
     }
-
-    @Override
-    public Vehicle clone() {
-        return new ThreeWheeler(this);
-    }
+    
+	@Override
+	protected Vehicle copy() {
+		return new ThreeWheeler(this);
+	}
 }

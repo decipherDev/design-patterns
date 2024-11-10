@@ -15,9 +15,9 @@ public class FourWheeler extends Vehicle {
         this.doors = fourWheeler.doors;
         this.speakers = fourWheeler.speakers;
     }
-
-    @Override
-    public Vehicle clone() {
-        return new FourWheeler(this);
-    }
+    
+	@Override
+	protected Vehicle copy() {
+		return new FourWheeler(this);
+	}
 }

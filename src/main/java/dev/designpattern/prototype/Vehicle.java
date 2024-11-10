@@ -1,19 +1,18 @@
 package dev.designpattern.prototype;
 
-public abstract class Vehicle implements Cloneable {
+public abstract class Vehicle {
     private String model;
     private String engine;
 
-    public Vehicle(String model, String engine) {
+    protected Vehicle(String model, String engine) {
         this.model = model;
         this.engine = engine;
     }
 
-    public Vehicle(Vehicle vehicle) {
+    protected Vehicle(Vehicle vehicle) {
         this.model = vehicle.model;
         this.engine = vehicle.engine;
     }
-
-    @Override
-    protected abstract Vehicle clone();
+    
+    protected abstract Vehicle copy();
 }

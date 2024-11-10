@@ -6,6 +6,11 @@ public class ThreadSafeSingletonObject {
 	private ThreadSafeSingletonObject() {
 		//private constructor in order to restrict it's visibility
 		//from other classes
+		if (object != null) {
+			//To avoid creation of object using reflection
+			throw new IllegalStateException("Instance already exists!");
+		}
+		
 	}
 	
 	public static ThreadSafeSingletonObject instance() {
@@ -18,5 +23,9 @@ public class ThreadSafeSingletonObject {
 		}
 		
 		return object;
+	}
+	
+	protected Object readResolve() {
+		return instance();
 	}
 }

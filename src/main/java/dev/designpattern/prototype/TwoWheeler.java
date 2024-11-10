@@ -9,8 +9,8 @@ public class TwoWheeler extends Vehicle {
         super(twoWheeler);
     }
 
-    @Override
-    public Vehicle clone() {
-        return new TwoWheeler(this);
-    }
+	@Override
+	protected Vehicle copy() {
+		return new TwoWheeler(this);
+	}
 }
