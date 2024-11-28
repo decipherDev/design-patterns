@@ -8,7 +8,7 @@
 | ✔️ Prototype           | ✔️ Decorator           | :x: Mediator              |
 | ✔️ Singleton           | ✔️ Facade              | ✔️ Memento                 |
 |                       | ✔️ Flyweight           | ✔️ Observer                | 
-|                       | ✔️ Proxy               | :x: State                 |
+|                       | ✔️ Proxy               | ✔️ State                   |
 |                       |                       | :x: Strategy              |
 |                       |                       | ✔️ Template                | 
 |                       |                       | :x: Visitor               |
@@ -27,4 +27,4 @@
 | [Prototype](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/prototype) |[Decorator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/decorator) | [Memento](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/memento) |
 |[Factory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/factory) |[Flyweight](https://github.com/decipherDev/$design-patterns/tree/master/src/main/java/dev/designpattern/flyweight) | [Observer](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/observer) |
 | [Abstract Factrory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/abstractfactory)|[Bridge](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge) | [Template Method](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/template) |
-| |[Facade](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/facade) | |
+| |[Facade](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/facade) | [State](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/state) |
