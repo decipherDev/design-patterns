@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="last-commit" src="https://img.shields.io/github/last-commit/decipherDev/design-patterns/master"/>
+</div>
+
 ## 📓 To-Do List
 
 | Creation Pattern      |  Structural Pattern   | Behavorial Pattern        |
