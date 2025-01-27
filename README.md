@@ -9,11 +9,11 @@
 | ✔️ Factory             | ✔️ Adapter             | ✔️ Chain of responsibility |
 | ✔️ Abstract Factory    | ✔️ Bridge              | ✔️  Command                |
 | ✔️ Builder             | ✔️ Composite           | :x: Iterator              |
-| ✔️ Prototype           | ✔️ Decorator           | ✔️ Mediator              |
+| ✔️ Prototype           | ✔️ Decorator           | ✔️ Mediator                |
 | ✔️ Singleton           | ✔️ Facade              | ✔️ Memento                 |
 |                       | ✔️ Flyweight           | ✔️ Observer                | 
 |                       | ✔️ Proxy               | ✔️ State                   |
-|                       |                       | :x: Strategy              |
+|                       |                       | ✔️ Strategy                |
 |                       |                       | ✔️ Template                | 
 |                       |                       | :x: Visitor               |
 
@@ -33,3 +33,4 @@
 | [Abstract Factrory](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/abstractfactory)|[Bridge](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/bridge) | [Template Method](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/template) |
 | |[Facade](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/facade) | [State](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/state) |
 | | | [Mediator](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/mediator) |
+| | | [Strategy](https://github.com/decipherDev/design-patterns/tree/master/src/main/java/dev/designpattern/strategy) |
