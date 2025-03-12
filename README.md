@@ -2,6 +2,28 @@
   <img alt="last-commit" src="https://img.shields.io/github/last-commit/decipherDev/design-patterns/master"/>
 </div>
 
+```mermaid
+graph TD
+  A[ GOF ] --> G[Creational]
+  G --> P[Factory]              
+  G --> Q[Abstract Factory]    
+  G --> R[Builder]             
+  G --> S[Prototype]           
+  G --> T[Singleton]          
+  A --> S1[Structural]
+  A --> S2[Behavorial]
+  S1 --> Adapter             
+  S1 --> Bridge              
+  S1 --> Composite           
+  S1 --> Decorator           
+  S1 --> Facade
+  S2 --> C2[Chain of responsibility] 
+  S2 --> Command                
+  S2 --> Iterator              
+  S2 --> Mediator                
+  S2 --> Memento                 
+```
+
 ## 📓 To-Do List
 
 | Creation Pattern      |  Structural Pattern   | Behavorial Pattern        |
