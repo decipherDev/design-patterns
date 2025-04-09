@@ -1,7 +1,3 @@
-<div align="center">
-  <img alt="last-commit" src="https://img.shields.io/github/last-commit/decipherDev/design-patterns/master"/>
-</div>
-
 ```mermaid
 graph TD
   A[ GOF ] --> G[Creational]
